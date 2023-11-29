@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:FileExcelConnection xmi:id="_9a9YcYrkEe6TQbzJYoJVqA" name="CUSTOMER_INSERTS/UPDATES" id="_9a9YcIrkEe6TQbzJYoJVqA" dataPackage="_9a9YcorkEe6TQbzJYoJVqA" Server="Localhost 127.0.0.1" FilePath="C:/Users/student/OneDrive - Atlantic TU/Desktop/CUSTOMER_DETAIL_IU(1).xlsx" Encoding="UTF-8" UseHeader="true" HeaderValue="1" FirstLineCaption="true" SheetName="CUSTOMER" firstColumn="1" thousandSeparator="','" decimalSeparator="'.'" selectAllSheets="true" sheetList="CUSTOMER:w&#xA;">
+    <sheetColumns>A</sheetColumns>
+    <sheetColumns>B</sheetColumns>
+    <sheetColumns>C</sheetColumns>
+    <sheetColumns>D</sheetColumns>
+    <sheetColumns>E</sheetColumns>
+    <sheetColumns>F</sheetColumns>
+    <sheetColumns>G</sheetColumns>
+  </TalendMetadata:FileExcelConnection>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_9a9YcorkEe6TQbzJYoJVqA" name="default" dataManager="_9a9YcYrkEe6TQbzJYoJVqA">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_9a9Yc4rkEe6TQbzJYoJVqA" id="_P9c4sIrkEe6TQbzJYoJVqA" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_9a9YdIrkEe6TQbzJYoJVqA" label="CUSTOMER_ID" length="8" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_9a9YdYrkEe6TQbzJYoJVqA" label="CUSTOMER_FIRST_NAME" length="6" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_9a9YdorkEe6TQbzJYoJVqA" label="CUSTOMER_LAST_NAME" length="4" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_9a9Yd4rkEe6TQbzJYoJVqA" label="CUSTOMER_ADDRESS" length="28" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_9a9YeIrkEe6TQbzJYoJVqA" label="PINCODE" length="6" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_9a9YeYrkEe6TQbzJYoJVqA" label="DATE" length="-1" talendType="id_Date" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_9a9YeorkEe6TQbzJYoJVqA" label="CUSTOMER_DOB" length="-1" talendType="id_Date" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>
